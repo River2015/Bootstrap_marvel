@@ -1925,8 +1925,6 @@ tbody.collapse.show {
   position: relative;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: justify;
@@ -2029,9 +2027,9 @@ tbody.collapse.show {
     display: none; }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9); }
+  color: #ffd400; }
   .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    color: rgba(0, 0, 0, 0.9); }
+    color: #ffd400; }
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.5); }
@@ -2044,7 +2042,7 @@ tbody.collapse.show {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9); }
+  color: #ffd400; }
 
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
@@ -2057,14 +2055,14 @@ tbody.collapse.show {
   color: rgba(0, 0, 0, 0.5); }
 
 .navbar-inverse .navbar-brand {
-  color: white; }
+  color: #ffd400; }
   .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-    color: white; }
+    color: #ffd400; }
 
 .navbar-inverse .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5); }
+  color: white; }
   .navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75); }
+    color: rgba(255, 255, 255, 0.55); }
   .navbar-inverse .navbar-nav .nav-link.disabled {
     color: rgba(255, 255, 255, 0.25); }
 
@@ -2072,17 +2070,17 @@ tbody.collapse.show {
 .navbar-inverse .navbar-nav .active > .nav-link,
 .navbar-inverse .navbar-nav .nav-link.show,
 .navbar-inverse .navbar-nav .nav-link.active {
-  color: white; }
+  color: #ffd400; }
 
 .navbar-inverse .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   border-color: rgba(255, 255, 255, 0.1); }
 
 .navbar-inverse .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 
 .navbar-inverse .navbar-text {
-  color: rgba(255, 255, 255, 0.5); }
+  color: white; }
 
 .card {
   position: relative;
@@ -2435,7 +2433,7 @@ a.badge:focus, a.badge:hover {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #eceeef;
+  background-color: transparent;
   border-radius: 0.3rem; }
 
 .jumbotron-fluid {
@@ -3902,6 +3900,59 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .invisible {
   visibility: hidden !important; }
+
+.ipad {
+  background: url(../img/ipad.jpg) center center no-repeat; }
+
+.dark_bg {
+  background: url(../img/bg_.jpg) 0% 0% no-repeat;
+  background-size: cover; }
+
+.dark {
+  background: url(../img/O_marvel.png) 100% 50% no-repeat; }
+
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; }
+
+.circle_bag {
+  background: url(../img/icon_bag.png) 50% 50% no-repeat; }
+
+.circle_fly {
+  background: url(../img/icon_fly.png) 50% 50% no-repeat; }
+
+.circle_panel {
+  background: url(../img/icon_panel.png) 50% 50% no-repeat; }
+
+.circle_microf {
+  background: url(../img/icon_microf.png) 50% 50% no-repeat; }
+
+.circle_glasses {
+  background: url(../img/icon_glasses.png) 50% 50% no-repeat; }
+
+.circle_row {
+  background: url(../img/icon_row.png) 50% 50% no-repeat; }
+
+.circle_macbook {
+  background: url(../img/icon_macbook.png) 50% 50% no-repeat; }
+
+.circle_bell {
+  background: url(../img/icon_bell.png) 50% 50% no-repeat; }
+
+.circle_jacket {
+  background: url(../img/icon_jacket.png) 50% 50% no-repeat; }
+
+@media (min-width: 320px) {
+
+  .lamp_man_o {
+    background: url(../img/light-lamp.png) left top no-repeat, url(../img/run_man.png) right 100% no-repeat; }
+
+  .man_O_round {
+    background: url(../img/man_promo.png) 0% 0% no-repeat, url(../img/O_promo.png) -15% -10% no-repeat; }
+
+  .round {
+    background: none; } }
 
 @media (min-width: 576px) {
 
@@ -5491,7 +5542,19 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     text-align: right !important; }
 
   .text-md-center {
-    text-align: center !important; } }
+    text-align: center !important; }
+
+  .ipad {
+    background: url(../img/ipad.jpg) right center no-repeat; }
+
+  .lamp_man_o {
+    background: url(../img/light-lamp.png) left top no-repeat, url(../img/run_man.png) right center no-repeat, url(../img/O_about.png) 80% 50% no-repeat; }
+
+  .man_O_round {
+    background: url(../img/man_promo.png) 150% 0% no-repeat, url(../img/O_promo.png) 150% -10% no-repeat; }
+
+  .round {
+    background: url(../img/round_promo.png) 0% 0% no-repeat; } }
 
 @media (min-width: 992px) {
 
@@ -6214,7 +6277,19 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     text-align: right !important; }
 
   .text-lg-center {
-    text-align: center !important; } }
+    text-align: center !important; }
+
+  .ipad {
+    background: url(../img/ipad.jpg) right center no-repeat; }
+
+  .lamp_man_o {
+    background: url(../img/light-lamp.png) left top no-repeat, url(../img/run_man.png) right center no-repeat, url(../img/O_about.png) 80% 50% no-repeat; }
+
+  .man_O_round {
+    background: url(../img/man_promo.png) 150% 0% no-repeat, url(../img/O_part_promo.png) 30% 80% no-repeat, url(../img/O_promo.png) 150% -10% no-repeat; }
+
+  .round {
+    background: url(../img/round_promo.png) 0% 0% no-repeat; } }
 
 @media (min-width: 1200px) {
 
@@ -6934,7 +7009,19 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     text-align: right !important; }
 
   .text-xl-center {
-    text-align: center !important; } }
+    text-align: center !important; }
+
+  .ipad {
+    background: url(../img/ipad.jpg) right center no-repeat; }
+
+  .lamp_man_o {
+    background: url(../img/light-lamp.png) left top no-repeat, url(../img/run_man.png) right center no-repeat, url(../img/O_about.png) 80% 50% no-repeat; }
+
+  .man_O_round {
+    background: url(../img/man_promo.png) 100% 0% no-repeat, url(../img/O_part_promo.png) 40% 80% no-repeat, url(../img/O_promo.png) 100% -10% no-repeat; }
+
+  .round {
+    background: url(../img/round_promo.png) 0% 0% no-repeat; } }
 
 @media print {
 
