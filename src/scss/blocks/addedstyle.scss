@@ -1,0 +1,213 @@
+.ipad{
+	background:url(../img/ipad.jpg) center center no-repeat;
+	//height:100px;
+}
+@media(min-width:768px){
+	.ipad{
+		background:url(../img/ipad.jpg) right center no-repeat;
+		//height:134px;
+	}
+}
+@media(min-width:992px){
+	.ipad{
+		background:url(../img/ipad.jpg) right center no-repeat;
+		//height:201px;
+	}
+}
+@media(min-width:1200px){
+	.ipad{
+		background:url(../img/ipad.jpg) right center no-repeat;
+		//height:201px;
+	}
+}
+
+
+.lamp_man_o{
+	// background:
+	// 			url(../img/light-lamp.png) left top no-repeat,
+	// 			url(../img/run_man.png) right center no-repeat,
+	// 			url(../img/O_about.png) 80% 50% no-repeat;
+	
+}
+@media(min-width: 320px){
+	.lamp_man_o{
+		background:
+				url(../img/light-lamp.png) left top no-repeat,
+				url(../img/run_man.png) right 100% no-repeat,
+				//url(../img/O_about.png) 80% 50% no-repeat;
+
+	}
+}
+ 	@media(min-width:768px){
+	.lamp_man_o{
+		background:
+				url(../img/light-lamp.png) left top no-repeat,
+				url(../img/run_man.png) right center no-repeat,
+				url(../img/O_about.png) 80% 50% no-repeat;
+	}
+}
+	@media(min-width:992px){
+	.lamp_man_o{
+		background:
+				url(../img/light-lamp.png) left top no-repeat,
+				url(../img/run_man.png) right center no-repeat,
+				url(../img/O_about.png) 80% 50% no-repeat;
+	}
+}
+	@media(min-width:1200px){
+	.lamp_man_o{
+		background:
+				url(../img/light-lamp.png) left top no-repeat,
+				url(../img/run_man.png) right center no-repeat,
+				url(../img/O_about.png) 80% 50% no-repeat;
+	}
+}
+
+.man_O_round {
+	// background:
+	// 			url(../img/man_promo.png) 100% 0% no-repeat,
+	// 			//url(../img/round_promo.png) right center no-repeat,
+	// 			url(../img/O_part_promo.png) 40% 80%  no-repeat,
+	// 			url(../img/O_promo.png) 100% -10% no-repeat;
+}
+	@media(min-width: 320px){
+	.man_O_round{
+		background:
+				url(../img/man_promo.png) 0% 0% no-repeat,
+				//url(../img/round_promo.png) right center no-repeat,
+				//url(../img/O_part_promo.png) 0% 80%  no-repeat,
+				url(../img/O_promo.png) -15% -10% no-repeat;
+
+
+
+	}
+}
+	@media(min-width:768px){
+	.man_O_round{
+		background:
+				url(../img/man_promo.png) 150% 0% no-repeat,
+				//url(../img/round_promo.png) right center no-repeat,
+				//url(../img/O_part_promo.png) 30% 80%  no-repeat,
+				url(../img/O_promo.png) 150% -10% no-repeat;
+
+	}
+}
+	@media(min-width:992px){
+	.man_O_round{
+		background:
+				url(../img/man_promo.png) 150% 0% no-repeat,
+				//url(../img/round_promo.png) right center no-repeat,
+				url(../img/O_part_promo.png) 30% 80%  no-repeat,
+				url(../img/O_promo.png) 150% -10% no-repeat;
+
+	}
+}
+	@media(min-width:1200px){
+	.man_O_round{
+		background:
+		url(../img/man_promo.png) 100% 0% no-repeat,
+				//url(../img/round_promo.png) right center no-repeat,
+				url(../img/O_part_promo.png) 40% 80%  no-repeat,
+				url(../img/O_promo.png) 100% -10% no-repeat;
+
+	}
+}
+
+
+.round {
+	// background:
+	// 			url(../img/round_promo.png) 0% 0% no-repeat;
+}
+@media(min-width:320px){
+	.round {
+		background: none;
+	}
+}
+@media(min-width:768px){
+	.round {
+		background:
+		url(../img/round_promo.png) 0% 0% no-repeat;
+	}
+}
+@media(min-width:992px){
+	.round{
+		background:
+		url(../img/round_promo.png) 0% 0% no-repeat;
+	}
+}
+@media(min-width:1200px){
+	.round{
+		background:
+		url(../img/round_promo.png) 0% 0% no-repeat;
+	}
+}
+.dark_bg {
+	background:
+				url(../img/bg_.jpg) 0% 0% no-repeat;
+			background-size: cover;
+}
+.dark {
+	background:
+				url(../img/O_marvel.png) 100% 50% no-repeat;
+				
+ }
+
+// @media(min-width:768px){
+// 	.ipad{
+// 		background:url(../img/ipad.jpg) right center no-repeat;
+// 		//height:134px;
+// 	}
+// }
+// @media(min-width:992px){
+// 	.ipad{
+// 		background:url(../img/ipad.jpg) right center no-repeat;
+// 		//height:201px;
+// 	}
+// }
+// @media(min-width:1200px){
+// 	.ipad{
+// 		background:url(../img/ipad.jpg) right center no-repeat;
+// 		//height:201px;
+// 	}
+// }
+.circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+.circle_bag {
+	background:
+				url(../img/icon_bag.png) 50% 50% no-repeat;
+}
+.circle_fly {
+	background:
+				url(../img/icon_fly.png) 50% 50% no-repeat;
+}
+.circle_panel {
+	background:
+				url(../img/icon_panel.png) 50% 50% no-repeat;
+}
+.circle_microf {
+	background:
+				url(../img/icon_microf.png) 50% 50% no-repeat;
+}
+.circle_glasses {
+	background:
+				url(../img/icon_glasses.png) 50% 50% no-repeat;
+}
+.circle_row {
+	background:
+				url(../img/icon_row.png) 50% 50% no-repeat;
+}
+.circle_macbook {
+	background:
+				url(../img/icon_macbook.png) 50% 50% no-repeat;
+}
+.circle_bell {
+	background:
+				url(../img/icon_bell.png) 50% 50% no-repeat;
+}
+.circle_jacket {
+	background:
+				url(../img/icon_jacket.png) 50% 50% no-repeat;
+}

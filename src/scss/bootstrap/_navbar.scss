@@ -18,7 +18,7 @@
 .navbar {
   position: relative;
   display: flex;
-  flex-wrap: wrap; // allow us to do the line break for collapsing content
+  //flex-wrap: wrap; // allow us to do the line break for collapsing content
   align-items: center;
   justify-content: space-between; // space out brand from logo
   padding: $navbar-padding-y $navbar-padding-x;
@@ -199,7 +199,7 @@
     color: $navbar-light-active-color;
 
     @include hover-focus {
-      color: $navbar-light-active-color;
+       color: $navbar-light-active-color;
     }
   }
 
