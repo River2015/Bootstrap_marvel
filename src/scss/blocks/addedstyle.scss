@@ -1,41 +1,24 @@
 .ipad{
 	background:url(../img/ipad.jpg) center center no-repeat;
-	//height:100px;
 }
 @media(min-width:768px){
 	.ipad{
-		background:url(../img/ipad.jpg) right center no-repeat;
-		//height:134px;
+		background:url(../img/ipad.jpg) right center no-repeat;	
 	}
 }
-@media(min-width:992px){
-	.ipad{
-		background:url(../img/ipad.jpg) right center no-repeat;
-		//height:201px;
-	}
-}
-@media(min-width:1200px){
-	.ipad{
-		background:url(../img/ipad.jpg) right center no-repeat;
-		//height:201px;
+.about_text {
+	font-size: 2.5rem;
+	@media(min-width:992px){
+		font-size: 4rem;
 	}
 }
 
 
-.lamp_man_o{
-	// background:
-	// 			url(../img/light-lamp.png) left top no-repeat,
-	// 			url(../img/run_man.png) right center no-repeat,
-	// 			url(../img/O_about.png) 80% 50% no-repeat;
-	
-}
 @media(min-width: 320px){
 	.lamp_man_o{
 		background:
 				url(../img/light-lamp.png) left top no-repeat,
 				url(../img/run_man.png) right 100% no-repeat,
-				//url(../img/O_about.png) 80% 50% no-repeat;
-
 	}
 }
  	@media(min-width:768px){
@@ -46,39 +29,14 @@
 				url(../img/O_about.png) 80% 50% no-repeat;
 	}
 }
-	@media(min-width:992px){
-	.lamp_man_o{
-		background:
-				url(../img/light-lamp.png) left top no-repeat,
-				url(../img/run_man.png) right center no-repeat,
-				url(../img/O_about.png) 80% 50% no-repeat;
-	}
-}
-	@media(min-width:1200px){
-	.lamp_man_o{
-		background:
-				url(../img/light-lamp.png) left top no-repeat,
-				url(../img/run_man.png) right center no-repeat,
-				url(../img/O_about.png) 80% 50% no-repeat;
-	}
-}
+	
 
-.man_O_round {
-	// background:
-	// 			url(../img/man_promo.png) 100% 0% no-repeat,
-	// 			//url(../img/round_promo.png) right center no-repeat,
-	// 			url(../img/O_part_promo.png) 40% 80%  no-repeat,
-	// 			url(../img/O_promo.png) 100% -10% no-repeat;
-}
+
 	@media(min-width: 320px){
 	.man_O_round{
 		background:
 				url(../img/man_promo.png) 0% 0% no-repeat,
-				//url(../img/round_promo.png) right center no-repeat,
-				//url(../img/O_part_promo.png) 0% 80%  no-repeat,
 				url(../img/O_promo.png) -15% -10% no-repeat;
-
-
 
 	}
 }
@@ -86,8 +44,6 @@
 	.man_O_round{
 		background:
 				url(../img/man_promo.png) 150% 0% no-repeat,
-				//url(../img/round_promo.png) right center no-repeat,
-				//url(../img/O_part_promo.png) 30% 80%  no-repeat,
 				url(../img/O_promo.png) 150% -10% no-repeat;
 
 	}
@@ -96,7 +52,6 @@
 	.man_O_round{
 		background:
 				url(../img/man_promo.png) 150% 0% no-repeat,
-				//url(../img/round_promo.png) right center no-repeat,
 				url(../img/O_part_promo.png) 30% 80%  no-repeat,
 				url(../img/O_promo.png) 150% -10% no-repeat;
 
@@ -105,42 +60,27 @@
 	@media(min-width:1200px){
 	.man_O_round{
 		background:
-		url(../img/man_promo.png) 100% 0% no-repeat,
-				//url(../img/round_promo.png) right center no-repeat,
+				url(../img/man_promo.png) 100% 0% no-repeat,
 				url(../img/O_part_promo.png) 40% 80%  no-repeat,
 				url(../img/O_promo.png) 100% -10% no-repeat;
-
 	}
 }
 
 
-.round {
-	// background:
-	// 			url(../img/round_promo.png) 0% 0% no-repeat;
-}
+
 @media(min-width:320px){
-	.round {
+	.round-wrapper {
 		background: none;
 	}
 }
 @media(min-width:768px){
-	.round {
+	.round-wrapper {
 		background:
-		url(../img/round_promo.png) 0% 0% no-repeat;
+		url(../img/round_promo.png) 0% 43% no-repeat;
 	}
 }
-@media(min-width:992px){
-	.round{
-		background:
-		url(../img/round_promo.png) 0% 0% no-repeat;
-	}
-}
-@media(min-width:1200px){
-	.round{
-		background:
-		url(../img/round_promo.png) 0% 0% no-repeat;
-	}
-}
+
+
 .dark_bg {
 	background:
 				url(../img/bg_.jpg) 0% 0% no-repeat;
@@ -148,28 +88,10 @@
 }
 .dark {
 	background:
-				url(../img/O_marvel.png) 100% 50% no-repeat;
-				
- }
+				url(../img/O_marvel.png) 100% 50% no-repeat;			
+}
 
-// @media(min-width:768px){
-// 	.ipad{
-// 		background:url(../img/ipad.jpg) right center no-repeat;
-// 		//height:134px;
-// 	}
-// }
-// @media(min-width:992px){
-// 	.ipad{
-// 		background:url(../img/ipad.jpg) right center no-repeat;
-// 		//height:201px;
-// 	}
-// }
-// @media(min-width:1200px){
-// 	.ipad{
-// 		background:url(../img/ipad.jpg) right center no-repeat;
-// 		//height:201px;
-// 	}
-// }
+
 .circle {
 	width: 70px;
 	height: 70px;
@@ -211,3 +133,141 @@
 	background:
 				url(../img/icon_jacket.png) 50% 50% no-repeat;
 }
+.service {
+
+	background:
+				url(../img/bg_serves.png) 0% 100% no-repeat,
+}
+.service_bg {
+	background:
+				url(../img/O_servis.png) -10% -10% no-repeat;
+}
+
+.service:before {
+	content: "";
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.6);
+}
+
+
+.title {
+	font-size: 3.5rem;
+	margin-bottom: -25px;
+	color: #ededed;
+	@media(min-width:768px){
+		font-size: 6rem;
+		margin-bottom: -38px;
+	}
+}
+.title_yellow {
+	color: #e6d119;
+	font-size: 3.5rem;
+	margin-bottom: -25px;
+	@media(min-width:768px){
+		font-size: 6rem;
+		margin-bottom: -38px;
+	}
+}
+.sub_title {
+	font-size: 1.5rem;
+	@media(min-width:768px){
+		font-size: 2rem;
+	}
+}
+
+.pricing {
+	background:
+				url(../img/bg_price.jpg) 0% 0% no-repeat;
+				background-size: cover;
+				
+}
+.price li:first-child {
+	padding-top: 60px;
+}
+
+.hover_shdow:hover {
+	box-shadow: 10px 15px 30px  rgba(99,108,114,0.7), -10px -15px 30px  rgba(99,108,114,0.7);
+	padding-left: 0;
+	padding-right: 0;
+	}
+	.team {
+		position: relative;
+	}
+	.cap {
+		position: absolute;
+		top: 0;
+		right: 0;
+		
+		left: 0;
+		padding: 1.25rem
+	}
+@media(min-width:768px){
+.cap {
+	display: none;
+	
+	background-color: #ffd400;
+}	
+.team:hover {
+	.hover_img{ display: none;}
+	.cap {
+		display: block;
+	}
+}
+}
+.invitation {
+	background:
+			url(../img/work_06.jpg) 50% 30% no-repeat;
+			background-size: cover;
+}
+
+.invitation:before { 
+	content: "";
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+}
+.circle_phone {
+	position: relative;
+}
+.circle_phone:before {
+	content: "";
+	position:absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/footer_phone.png) 50% 50% no-repeat;;
+}
+.circle_adress {
+	position: relative;
+}
+.circle_adress:before {
+	content: "";
+	position:absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/footer_adress.png) 50% 50% no-repeat;;
+}
+.border-white {
+	border: 1px solid #ffffff;
+}
+.footer_nav {
+	font-size: 0.7rem;
+	@media(min-width:768px){
+		font-size: 1rem;
+	}
+}
+.footer_link {
+	color: #fff;
+}
+.footer_link:hover {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+
+

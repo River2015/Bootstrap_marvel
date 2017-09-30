@@ -1,12 +1,18 @@
 // Wrapper for the slide container and indicators
 .carousel {
   position: relative;
+  //height: 200px;
 }
 
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
+  //height: 400px;
+  margin: auto;
+  @media(min-width:1024px){
+    width: 70%;
+  }
 }
 
 .carousel-item {
